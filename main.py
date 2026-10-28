@@ -4,7 +4,7 @@ the remaining elements become the tail, and an empty list acts as the base case.
 l = [1,2,5,8,6]
 
 def headTail(list):
-    if not l:
+    if not list:
         print("Base case reached")
 
     head = list[0]
